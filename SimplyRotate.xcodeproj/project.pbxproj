@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EB8615A14E4A57500A78955 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB8615914E4A57500A78955 /* UIKit.framework */; };
+		4EB8615C14E4A57500A78955 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB8615B14E4A57500A78955 /* Foundation.framework */; };
+		4EB8615E14E4A57500A78955 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB8615D14E4A57500A78955 /* CoreGraphics.framework */; };
+		4EB8616414E4A57500A78955 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4EB8616214E4A57500A78955 /* InfoPlist.strings */; };
+		4EB8616614E4A57500A78955 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB8616514E4A57500A78955 /* main.m */; };
+		4EB8616A14E4A57500A78955 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB8616914E4A57500A78955 /* AppDelegate.m */; };
+		4EB8616D14E4A57500A78955 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EB8616B14E4A57500A78955 /* MainStoryboard_iPhone.storyboard */; };
+		4EB8617014E4A57500A78955 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EB8616E14E4A57500A78955 /* MainStoryboard_iPad.storyboard */; };
+		4EB8617314E4A57500A78955 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB8617214E4A57500A78955 /* ViewController.m */; };
+		4EB8617B14E4A57500A78955 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB8617A14E4A57500A78955 /* SenTestingKit.framework */; };
+		4EB8617C14E4A57500A78955 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB8615914E4A57500A78955 /* UIKit.framework */; };
+		4EB8617D14E4A57500A78955 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB8615B14E4A57500A78955 /* Foundation.framework */; };
+		4EB8618514E4A57500A78955 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4EB8618314E4A57500A78955 /* InfoPlist.strings */; };
+		4EB8618814E4A57500A78955 /* SimplyRotateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB8618714E4A57500A78955 /* SimplyRotateTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EB8617E14E4A57500A78955 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EB8614C14E4A57400A78955 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EB8615414E4A57500A78955;
+			remoteInfo = SimplyRotate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EB8615514E4A57500A78955 /* SimplyRotate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplyRotate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EB8615914E4A57500A78955 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4EB8615B14E4A57500A78955 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4EB8615D14E4A57500A78955 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4EB8616114E4A57500A78955 /* SimplyRotate-Info.plist */ = {isa = PBXFileReference; path = "SimplyRotate-Info.plist"; sourceTree = "<group>"; };
+		4EB8616314E4A57500A78955 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4EB8616514E4A57500A78955 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4EB8616714E4A57500A78955 /* SimplyRotate-Prefix.pch */ = {isa = PBXFileReference; path = "SimplyRotate-Prefix.pch"; sourceTree = "<group>"; };
+		4EB8616814E4A57500A78955 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		4EB8616914E4A57500A78955 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4EB8616C14E4A57500A78955 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		4EB8616F14E4A57500A78955 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		4EB8617114E4A57500A78955 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		4EB8617214E4A57500A78955 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4EB8617914E4A57500A78955 /* SimplyRotateTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplyRotateTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EB8617A14E4A57500A78955 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4EB8618214E4A57500A78955 /* SimplyRotateTests-Info.plist */ = {isa = PBXFileReference; path = "SimplyRotateTests-Info.plist"; sourceTree = "<group>"; };
+		4EB8618414E4A57500A78955 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4EB8618614E4A57500A78955 /* SimplyRotateTests.h */ = {isa = PBXFileReference; path = SimplyRotateTests.h; sourceTree = "<group>"; };
+		4EB8618714E4A57500A78955 /* SimplyRotateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimplyRotateTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EB8615214E4A57500A78955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB8615A14E4A57500A78955 /* UIKit.framework in Frameworks */,
+				4EB8615C14E4A57500A78955 /* Foundation.framework in Frameworks */,
+				4EB8615E14E4A57500A78955 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB8617514E4A57500A78955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB8617B14E4A57500A78955 /* SenTestingKit.framework in Frameworks */,
+				4EB8617C14E4A57500A78955 /* UIKit.framework in Frameworks */,
+				4EB8617D14E4A57500A78955 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EB8614A14E4A57400A78955 = {
+			isa = PBXGroup;
+			children = (
+				4EB8615F14E4A57500A78955 /* SimplyRotate */,
+				4EB8618014E4A57500A78955 /* SimplyRotateTests */,
+				4EB8615814E4A57500A78955 /* Frameworks */,
+				4EB8615614E4A57500A78955 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EB8615614E4A57500A78955 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EB8615514E4A57500A78955 /* SimplyRotate.app */,
+				4EB8617914E4A57500A78955 /* SimplyRotateTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EB8615814E4A57500A78955 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EB8615914E4A57500A78955 /* UIKit.framework */,
+				4EB8615B14E4A57500A78955 /* Foundation.framework */,
+				4EB8615D14E4A57500A78955 /* CoreGraphics.framework */,
+				4EB8617A14E4A57500A78955 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4EB8615F14E4A57500A78955 /* SimplyRotate */ = {
+			isa = PBXGroup;
+			children = (
+				4EB8616814E4A57500A78955 /* AppDelegate.h */,
+				4EB8616914E4A57500A78955 /* AppDelegate.m */,
+				4EB8616B14E4A57500A78955 /* MainStoryboard_iPhone.storyboard */,
+				4EB8616E14E4A57500A78955 /* MainStoryboard_iPad.storyboard */,
+				4EB8617114E4A57500A78955 /* ViewController.h */,
+				4EB8617214E4A57500A78955 /* ViewController.m */,
+				4EB8616014E4A57500A78955 /* Supporting Files */,
+			);
+			path = SimplyRotate;
+			sourceTree = "<group>";
+		};
+		4EB8616014E4A57500A78955 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EB8616114E4A57500A78955 /* SimplyRotate-Info.plist */,
+				4EB8616214E4A57500A78955 /* InfoPlist.strings */,
+				4EB8616514E4A57500A78955 /* main.m */,
+				4EB8616714E4A57500A78955 /* SimplyRotate-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EB8618014E4A57500A78955 /* SimplyRotateTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EB8618614E4A57500A78955 /* SimplyRotateTests.h */,
+				4EB8618714E4A57500A78955 /* SimplyRotateTests.m */,
+				4EB8618114E4A57500A78955 /* Supporting Files */,
+			);
+			path = SimplyRotateTests;
+			sourceTree = "<group>";
+		};
+		4EB8618114E4A57500A78955 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EB8618214E4A57500A78955 /* SimplyRotateTests-Info.plist */,
+				4EB8618314E4A57500A78955 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EB8615414E4A57500A78955 /* SimplyRotate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EB8618B14E4A57500A78955 /* Build configuration list for PBXNativeTarget "SimplyRotate" */;
+			buildPhases = (
+				4EB8615114E4A57500A78955 /* Sources */,
+				4EB8615214E4A57500A78955 /* Frameworks */,
+				4EB8615314E4A57500A78955 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimplyRotate;
+			productName = SimplyRotate;
+			productReference = 4EB8615514E4A57500A78955 /* SimplyRotate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EB8617814E4A57500A78955 /* SimplyRotateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EB8618E14E4A57500A78955 /* Build configuration list for PBXNativeTarget "SimplyRotateTests" */;
+			buildPhases = (
+				4EB8617414E4A57500A78955 /* Sources */,
+				4EB8617514E4A57500A78955 /* Frameworks */,
+				4EB8617614E4A57500A78955 /* Resources */,
+				4EB8617714E4A57500A78955 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EB8617F14E4A57500A78955 /* PBXTargetDependency */,
+			);
+			name = SimplyRotateTests;
+			productName = SimplyRotateTests;
+			productReference = 4EB8617914E4A57500A78955 /* SimplyRotateTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EB8614C14E4A57400A78955 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4EB8614F14E4A57400A78955 /* Build configuration list for PBXProject "SimplyRotate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4EB8614A14E4A57400A78955;
+			productRefGroup = 4EB8615614E4A57500A78955 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EB8615414E4A57500A78955 /* SimplyRotate */,
+				4EB8617814E4A57500A78955 /* SimplyRotateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EB8615314E4A57500A78955 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB8616414E4A57500A78955 /* InfoPlist.strings in Resources */,
+				4EB8616D14E4A57500A78955 /* MainStoryboard_iPhone.storyboard in Resources */,
+				4EB8617014E4A57500A78955 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB8617614E4A57500A78955 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB8618514E4A57500A78955 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4EB8617714E4A57500A78955 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EB8615114E4A57500A78955 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB8616614E4A57500A78955 /* main.m in Sources */,
+				4EB8616A14E4A57500A78955 /* AppDelegate.m in Sources */,
+				4EB8617314E4A57500A78955 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB8617414E4A57500A78955 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB8618814E4A57500A78955 /* SimplyRotateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EB8617F14E4A57500A78955 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EB8615414E4A57500A78955 /* SimplyRotate */;
+			targetProxy = 4EB8617E14E4A57500A78955 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EB8616214E4A57500A78955 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EB8616314E4A57500A78955 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4EB8616B14E4A57500A78955 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EB8616C14E4A57500A78955 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		4EB8616E14E4A57500A78955 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EB8616F14E4A57500A78955 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		4EB8618314E4A57500A78955 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EB8618414E4A57500A78955 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EB8618914E4A57500A78955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EB8618A14E4A57500A78955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EB8618C14E4A57500A78955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimplyRotate/SimplyRotate-Prefix.pch";
+				INFOPLIST_FILE = "SimplyRotate/SimplyRotate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4EB8618D14E4A57500A78955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimplyRotate/SimplyRotate-Prefix.pch";
+				INFOPLIST_FILE = "SimplyRotate/SimplyRotate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4EB8618F14E4A57500A78955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimplyRotate.app/SimplyRotate";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimplyRotate/SimplyRotate-Prefix.pch";
+				INFOPLIST_FILE = "SimplyRotateTests/SimplyRotateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4EB8619014E4A57500A78955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimplyRotate.app/SimplyRotate";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimplyRotate/SimplyRotate-Prefix.pch";
+				INFOPLIST_FILE = "SimplyRotateTests/SimplyRotateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EB8614F14E4A57400A78955 /* Build configuration list for PBXProject "SimplyRotate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EB8618914E4A57500A78955 /* Debug */,
+				4EB8618A14E4A57500A78955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EB8618B14E4A57500A78955 /* Build configuration list for PBXNativeTarget "SimplyRotate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EB8618C14E4A57500A78955 /* Debug */,
+				4EB8618D14E4A57500A78955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4EB8618E14E4A57500A78955 /* Build configuration list for PBXNativeTarget "SimplyRotateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EB8618F14E4A57500A78955 /* Debug */,
+				4EB8619014E4A57500A78955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EB8614C14E4A57400A78955 /* Project object */;
+}

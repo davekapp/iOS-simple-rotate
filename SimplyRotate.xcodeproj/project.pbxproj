@@ -38,21 +38,21 @@
 		4EB8615914E4A57500A78955 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4EB8615B14E4A57500A78955 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4EB8615D14E4A57500A78955 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4EB8616114E4A57500A78955 /* SimplyRotate-Info.plist */ = {isa = PBXFileReference; path = "SimplyRotate-Info.plist"; sourceTree = "<group>"; };
+		4EB8616114E4A57500A78955 /* SimplyRotate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimplyRotate-Info.plist"; sourceTree = "<group>"; };
 		4EB8616314E4A57500A78955 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4EB8616514E4A57500A78955 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4EB8616714E4A57500A78955 /* SimplyRotate-Prefix.pch */ = {isa = PBXFileReference; path = "SimplyRotate-Prefix.pch"; sourceTree = "<group>"; };
-		4EB8616814E4A57500A78955 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		4EB8616714E4A57500A78955 /* SimplyRotate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimplyRotate-Prefix.pch"; sourceTree = "<group>"; };
+		4EB8616814E4A57500A78955 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4EB8616914E4A57500A78955 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4EB8616C14E4A57500A78955 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		4EB8616F14E4A57500A78955 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		4EB8617114E4A57500A78955 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		4EB8617114E4A57500A78955 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4EB8617214E4A57500A78955 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4EB8617914E4A57500A78955 /* SimplyRotateTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplyRotateTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB8617A14E4A57500A78955 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		4EB8618214E4A57500A78955 /* SimplyRotateTests-Info.plist */ = {isa = PBXFileReference; path = "SimplyRotateTests-Info.plist"; sourceTree = "<group>"; };
+		4EB8618214E4A57500A78955 /* SimplyRotateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimplyRotateTests-Info.plist"; sourceTree = "<group>"; };
 		4EB8618414E4A57500A78955 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4EB8618614E4A57500A78955 /* SimplyRotateTests.h */ = {isa = PBXFileReference; path = SimplyRotateTests.h; sourceTree = "<group>"; };
+		4EB8618614E4A57500A78955 /* SimplyRotateTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimplyRotateTests.h; sourceTree = "<group>"; };
 		4EB8618714E4A57500A78955 /* SimplyRotateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimplyRotateTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
